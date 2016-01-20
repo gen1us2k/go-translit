@@ -8,6 +8,7 @@ func TestToLatin(t *testing.T) {
 //		"Jackie Chan": "Йацкие Цхан",
 //		"Jessie Jane": "Йессие Йане",
 		"Impossibru": "Импоссибру",
+		"Hello": "Хелло",
 		"Red Center": "Ред Центер",
 	}
 	for k, v := range tests {
