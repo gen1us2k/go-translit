@@ -1,4 +1,4 @@
-package go_translit
+package translit
 
 import (
 	"regexp"

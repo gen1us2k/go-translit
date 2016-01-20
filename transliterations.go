@@ -1,4 +1,4 @@
-package go_translit
+package translit
 
 var en_translations = map[string]string{
 	"Ya|Ja": "Я",

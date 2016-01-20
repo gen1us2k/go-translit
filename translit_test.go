@@ -1,8 +1,8 @@
-package go_translit
+package translit
 
 import "testing"
 
-func TestToLatin(t *testing.T) {
+func TestToCyrillic(t *testing.T) {
 	tests := map[string]string{
 		"Prived": "Привед",
 //		"Jackie Chan": "Йацкие Цхан",
