@@ -21,7 +21,6 @@ var en_translations = map[string]string{
 	"h": "х",
 	"X": "Кс",
 	"x": "кс",
-//	""|\'": "ь",
 	"##": "ъ",
 	"A": "А",
 	"a": "а",
