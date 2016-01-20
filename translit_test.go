@@ -5,10 +5,10 @@ import "testing"
 func TestToCyrillic(t *testing.T) {
 	tests := map[string]string{
 		"Prived": "Привед",
-//		"Jackie Chan": "Йацкие Цхан",
-//		"Jessie Jane": "Йессие Йане",
+		//		"Jackie Chan": "Йацкие Цхан",
+		//		"Jessie Jane": "Йессие Йане",
 		"Impossibru": "Импоссибру",
-		"Hello": "Хелло",
+		"Hello":      "Хелло",
 		"Red Center": "Ред Центер",
 	}
 	for k, v := range tests {
