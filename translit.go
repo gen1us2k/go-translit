@@ -4,11 +4,12 @@ import (
 	"regexp"
 )
 
+// Translit transliterates english string to cyrillic analog
 func Translit(s string) string {
-	cyrillic_string := s
-	for k, v := range en_translations {
+	cyrillicString := s
+	for k, v := range enTranslations {
 		r, _ := regexp.Compile(k)
-		cyrillic_string = r.ReplaceAllString(cyrillic_string, v)
+		cyrillicString = r.ReplaceAllString(cyrillicString, v)
 	}
-	return cyrillic_string
+	return cyrillicString
 }

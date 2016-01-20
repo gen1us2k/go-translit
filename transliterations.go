@@ -1,6 +1,6 @@
 package translit
 
-var en_translations = map[string]string{
+var enTranslations = map[string]string{
 	"Ya|Ja":   "Я",
 	"ya|ja":   "я",
 	"Je":      "Э",
