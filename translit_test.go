@@ -10,6 +10,9 @@ func TestToCyrillic(t *testing.T) {
 		"Impossibru": "Импоссибру",
 		"Hello":      "Хелло",
 		"Red Center": "Ред Центер",
+		"Andrew":     "Андрей",
+		"Anatoliy":   "Анатолий",
+		"Vasilii":    "Василий",
 	}
 	for k, v := range tests {
 		tr := Translit(k)
